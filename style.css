@@ -1,63 +1,99 @@
-body {
-    font-family: "Roboto Mono", monospace;
-    min-height: 400px;
-    background-color: #000000;
-    background-size: 100vh;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  input {
-    margin: 12px;
-    padding: 6px;
-    border-radius: 5px;
-  }
-  
-  label {
-    color: white;
-  }
-  
-  button {
-    margin-top: 12px;
-    padding: 4px 8px;
-    border-radius: 10px;
-    background: #ffffff;
-  }
-  
-  h2 {
-    color: #ffffff;
-    font-size: 30px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .teste {
-    text-align: center;
-    
-  }
-  
+body {
+  background-color: rgb(34, 33, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: aliceblue;
+  padding: 30px 16px ;
+  background-color: rgb(15, 15, 15);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-subtitle {
+  color: aliceblue;
+  font-size: 26px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moeda {
+  color: aliceblue;
+  font-size: 22px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#valor {
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #348adb;
+  padding: 14px 10px;
+  width: 80%;
+  color: #ffffff;
+  border-radius: 26px;
+  transition: 0.25s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.teste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tax_info {
+  color: aliceblue;
+  font-size: 30px;
+  margin: 0 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#from_currency, #to_currency {
+  border: none;
+  border-radius: 10px;
+  padding: 4px 10px;
+  background-color: #5d5e5f;
+  border: 2px solid #348adb;
+  color: aliceblue;
+}
+
+#from_ammount, #to_ammount, #swap {
+  border: none;
+  border-radius: 10px;
+  padding: 4px 10px;
+  background-color: #5d5e5f;
+  border: 2px solid #348adb;
+  color: aliceblue;
+  margin: 8px;
+}
+
